@@ -26,12 +26,12 @@ echo "out" > /sys/class/gpio/gpio$GPIO6/direction
 echo "out" > /sys/class/gpio/gpio$GPIO7/direction
 echo "out" > /sys/class/gpio/gpio$GPIO8/direction
 
-echo 0 > /sys/class/gpio/gpio$GPIO1/value
-echo 0 > /sys/class/gpio/gpio$GPIO2/value
-echo 0 > /sys/class/gpio/gpio$GPIO3/value
-echo 0 > /sys/class/gpio/gpio$GPIO4/value
-echo 0 > /sys/class/gpio/gpio$GPIO5/value
-echo 0 > /sys/class/gpio/gpio$GPIO6/value
-echo 0 > /sys/class/gpio/gpio$GPIO7/value
-echo 0 > /sys/class/gpio/gpio$GPIO8/value
+echo 1 > /sys/class/gpio/gpio$GPIO1/value
+echo 1 > /sys/class/gpio/gpio$GPIO2/value
+echo 1 > /sys/class/gpio/gpio$GPIO3/value
+echo 1 > /sys/class/gpio/gpio$GPIO4/value
+echo 1 > /sys/class/gpio/gpio$GPIO5/value
+echo 1 > /sys/class/gpio/gpio$GPIO6/value
+echo 1 > /sys/class/gpio/gpio$GPIO7/value
+echo 1 > /sys/class/gpio/gpio$GPIO8/value
 sleep 1
